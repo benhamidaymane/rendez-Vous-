@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from designreset.com/preview-equation/demo3/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jun 2023 22:37:30 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <title>Default | Equation - Multipurpose Bootstrap Dashboard Template </title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="assets/css/loader.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+    <link href="plugins/maps/vector/jvector/jquery-jvectormap-2.0.3.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/charts/chartist/chartist.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/default-dashboard/style.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+</head>
+<body>
+    <div id="eq-loader">
+      <div class="eq-loader-div">
+          <div class="eq-loading dual-loader mx-auto mb-5"></div>
+      </div>
+    </div>
+
+    <!--  BEGIN NAVBAR  -->
+    <header class="desktop-nav header navbar fixed-top">
+        <div class="nav-logo mr-sm-5 ml-sm-4">
+            <a href="javascript:void(0);" class="nav-link sidebarCollapse d-inline-block mr-sm-5" data-placement="bottom">
+                <i class="flaticon-menu-line-3"></i>
+            </a>
+            <a href="index-2.html" class=""> <img src="assets/img/1.png" class="img-fluid" alt="logo"></a>
+        </div>
+        <ul class="navbar-nav flex-row mr-auto">
+            <li class="nav-item ml-4 d-lg-none d-sm-block d-none">
+                <form class="form-inline search-full form-inline search animated-search" role="search">
+                    <i class="flaticon-search-1 d-lg-none d-block"></i>
+                    <input type="text" class="form-control search-form-control  ml-lg-auto" placeholder="Search...">
+                </form>
+            </li>
+            <li class="nav-item d-lg-block d-none">
+                <form class="form-inline form-inline search animated-search" role="search">
+                    <i class="flaticon-search-1 d-lg-none d-block"></i>
+                    <input type="text" class="form-control search-form-control" placeholder="Search here...">
+                </form>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav flex-row ml-lg-auto">
+         <li class="nav-item dropdown notification-dropdown ml-3 mr-lg-4 align-self-center">
+                <a href="javascript:void(0);" class="nav-link dropdown-toggle" id="notification-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="icon flaticon-bell-4"></span><span class="badge badge-success">15</span>
+                </a>
+                <div class="dropdown-menu position-absolute eq-animated eq-fadeInUp" aria-labelledby="notification-dropdown">
+                    <div class="notification-scroll">
+                        <div class="dropdown-item">
+                            <a href="#">
+                                <div class="media">
+                                    <div class="user-profile">
+                                        <img src="assets/img/profile-7.jpg" alt="admin-profile" class="img-fluid">
+                                    </div>
+                                    <div class="media-body">
+                                        <span>Alan Green</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="dropdown-item">
+                            <a href="#">
+                                <div class="media">
+                                    <div class="user-profile">
+                                        <img src="assets/img/profile-11.jpg" alt="admin-profile" class="img-fluid">
+                                    </div>
+                                    <div class="media-body">
+                                        <span>Irene Collins</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="dropdown-item">
+                            <a href="#">
+                                <div class="media">
+                                    <div class="user-profile">
+                                        <img src="assets/img/profile-12.jpg" alt="admin-profile" class="img-fluid">
+                                    </div>
+                                    <div class="media-body">
+                                        <span>Sonia Shaw</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="dropdown-item">
+                            <a href="#">
+                                <div class="media">
+                                    <div class="user-profile">
+                                        <img src="assets/img/profile-13.jpg" alt="admin-profile" class="img-fluid">
+                                    </div>
+                                    <div class="media-body">
+                                        <span>Xavier</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown user-profile-dropdown pl-4 pr-lg-0 pr-2 ml-lg-2 mr-lg-4  align-self-center">
+                <a href="javascript:void(0);" class="nav-link dropdown-toggle user">
+                    <div class="user-profile d-lg-block d-none">
+                        <img src="assets/img/profile-7.jpg" alt="admin-profile" class="img-fluid">
+                    </div>
+                    <i class="flaticon-user-7 d-lg-none d-block"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <!--  END NAVBAR  -->
+
+    <!--  BEGIN MAIN CONTAINER  -->
+    <div class="main-container" id="container">
+        <div class="overlay"></div>
+        <div class="ps-overlay"></div>
+        <div class="search-overlay"></div>
+        
+        <!--  BEGIN MODERN  -->
+        <div class="modernSidebar-nav header navbar">
+            <div class="">
+                <nav id="modernSidebar">
+                    <ul class="menu-categories pl-0 m-0" id="topAccordion">
+                        <li class="menu">
+                            <a href="#dashboard" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">
+                                <div class="">
+                                    <i class="flaticon-computer-6"></i>
+                                    <span>Dashboard</span>
+                                </div>
+                            </a>
+                            
+                        </li>
+
+                        <li class="menu">
+                            <a href="#uiAndComponents" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed">
+                                <div class="">
+                                    <i class="flaticon-3d-cube"></i>
+                                    <span>Components</span>
+                                </div>
+                            </a>
+                            
+                        </li>
+
+                        <li class="menu">
+                            <a href="#tables-forms" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed">
+                                <div class="">
+                                    <i class="flaticon-table"></i>
+                                    <span>Tables &amp; Forms</span>
+                                </div>
+                            </a>
+                            
+                        </li>
+
+                        <li class="menu">
+                            <a href="#pages" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed">
+                                <div class="">
+                                    <i class="flaticon-copy"></i>
+                                    <span>Pages</span>
+                                </div>
+                            </a>
+                            
+                        </li>
+
+                        <li class="menu">
+                            <a href="#app" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed">
+                                <div class="">
+                                    <i class="flaticon-mail-19"></i>
+                                    <span>Apps</span>
+                                </div>
+                            </a>
+                            
+                        </li>
+
+                        <li class="menu">
+                            <a href="#more" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                                <div class="">
+                                    <i class="flaticon-plus"></i>
+                                    <span class="">More</span>
+                                </div>
+                            </a>
+                            
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!--  END MODERN  -->
+        
+        <!--  BEGIN CONTENT PART  -->
+        <div id="content" class="main-content">
+            <div class="container">
+                <div class="page-header">
+                    <div class="page-title">
+                        <h3>Dashboard</h3>
+                    </div>
+                </div>
+
+                <div class="row layout-spacing">
+
+                    <div class="col-xl-3 mb-xl-0 col-lg-6 mb-4 col-md-6 col-sm-6">
+                        <div class="widget-content-area  data-widgets br-4">
+                            <div class="widget  t-sales-widget">
+                                <div class="media">
+                                    <div class="icon ml-2">
+                                        <i class="flaticon-line-chart"></i>
+                                    </div>
+                                    <div class="media-body text-right">
+                                        <p class="widget-text mb-0">Sales</p>
+                                        <p class="widget-numeric-value">98,225</p>
+                                    </div>
+                                </div>
+                                <p class="widget-total-stats mt-2">94% New Sales</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 mb-xl-0 col-lg-6 mb-4 col-md-6 col-sm-6">
+                        <div class="widget-content-area  data-widgets br-4">
+                            <div class="widget  t-order-widget">
+                                <div class="media">
+                                    <div class="icon ml-2">
+                                        <i class="flaticon-cart-bag"></i>
+                                    </div>
+                                    <div class="media-body text-right">
+                                        <p class="widget-text mb-0">Order</p>
+                                        <p class="widget-numeric-value">24,017</p>
+                                    </div>
+                                </div>
+                                <p class="widget-total-stats mt-2">552 New Orders</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mb-sm-0 mb-4">
+                        <div class="widget-content-area  data-widgets br-4">
+                            <div class="widget  t-customer-widget">
+                                <div class="media">
+                                    <div class="icon ml-2">
+                                        <i class="flaticon-user-11"></i>
+                                    </div>
+                                    <div class="media-body text-right">
+                                        <p class="widget-text mb-0">Customers</p>
+                                        <p class="widget-numeric-value">92,251</p>
+                                    </div>
+                                </div>
+                                <p class="widget-total-stats mt-2">390 New Customers</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                        
+                        <div class="widget-content-area  data-widgets br-4">
+                            <div class="widget  t-income-widget">
+                                <div class="media">
+                                    <div class="icon ml-2">
+                                        <i class="flaticon-money"></i>
+                                    </div>
+                                    <div class="media-body text-right">
+                                        <p class="widget-text mb-0">Income</p>
+                                        <p class="widget-numeric-value">9.5 M</p>
+                                    </div>
+                                </div>
+                                <p class="widget-total-stats mt-2">$2.1 M This Week</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-12 layout-spacing">
+                        <div class="statbox widget box">
+                            <div class="widget-header ">
+                                <div class="row">
+                                    <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                                        <h4>New Products</h4>
+                                    </div>                 
+                                </div>
+                            </div>
+
+                            <div class="widget-content-area ">
+
+                                <div class="table-responsive new-products">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="form-check-column text-center">
+                                                    <label  for="checkAll" class="new-control new-checkbox new-checkbox-rounded checkbox-primary pb-2">
+                                                      <input type="checkbox" id="checkAll" class="new-control-input">
+                                                      <span class="new-control-indicator mt-2"></span><span class="invisible">s</span>
+                                                    </label>
+                                                </th>
+                                                <th>Product</th>
+                                                <th>Type</th>
+                                                <th>SKU</th>
+                                                <th class="text-center">Quantity</th>
+                                                <th>Image</th>
+                                                <th class="text-center">Price</th>
+                                                <th class="text-center">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="form-check-column text-center">
+                                                    <label class="new-control new-checkbox new-checkbox-rounded checkbox-primary pb-2">
+                                                      <input type="checkbox" class="new-control-input chkbox">
+                                                      <span class="new-control-indicator mt-2"></span><span class="invisible">s</span>
+                                                    </label>
+                                                </td>
+                                                <td>Camera</td>
+                                                <td><span class="badge badge-info badge-pill">Simple</span></td>
+                                                <td>#0001</td>
+                                                <td class="text-center">1</td>
+                                                <td>
+                                                    <img src="assets/img/large-img-7.jpg" class="img-fluid" alt="img-1" style="border-color: #3862f5;">
+                                                </td>
+                                                <td class="text-center">$848.95</td>
+                                                
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="pagination-section">
+                                    <ul class="pagination pagination-style-1 pagination-rounded justify-content-end mt-3 mb-3">
+                                        <li><a href="javascript:void(0);">«</a></li>
+                                        <li><a href="javascript:void(0);">1</a></li>
+                                        <li><a href="javascript:void(0);">2</a></li>
+                                        <li><a href="javascript:void(0);">3</a></li>
+                                        <li><a href="javascript:void(0);">4</a></li>
+                                        <li><a href="javascript:void(0);">5</a></li>
+                                        <li><a href="javascript:void(0);">»</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--  END CONTENT PART  -->
+
+    </div>
+    <!-- END MAIN CONTAINER -->
+
+    <!--  BEGIN FOOTER  -->
+    <footer class="footer-section theme-footer">
+
+        <div class="footer-section-1  sidebar-theme">
+            
+        </div>
+
+        <div class="footer-section-2 container-fluid">
+            <div class="row">
+                <div id="toggle-grid" class="col-xl-7 col-md-6 col-sm-6 col-12 text-sm-left text-center">
+                    <ul class="list-inline links ml-sm-5">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://themeforest.net/item/equation-responsive-admin-dashboard-template/23191987">Buy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-5 col-md-6 col-sm-6 col-12">
+                    <ul class="list-inline mb-0 d-flex justify-content-sm-end justify-content-center mr-sm-3 ml-sm-0 mx-3">
+                        <li class="list-inline-item  mr-3">
+                            <p class="bottom-footer">&#xA9; 2019 <a target="_blank" href="https://designreset.com/equation">Equation Admin Theme</a></p>
+                        </li>
+                        <li class="list-inline-item align-self-center">
+                            <div class="scrollTop"><i class="flaticon-up-arrow-fill-1"></i></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--  END FOOTER  -->
+
+    <!--  BEGIN PROFILE SIDEBAR  -->
+    <aside class="profile-sidebar text-center">
+        <div class="profile-content profile-content-scroll">
+            <div class="usr-profile">
+                <img src="assets/img/profile-7.jpg" alt="admin-profile" class="img-fluid">
+            </div>
+            <p class="user-name mt-4 mb-4">Vincent Carpenter</p>
+            <div class="">
+                <div class="accordion" id="user-stats">
+                    
+                </div>
+            </div>
+            <div class="user-links text-left">
+                <ul class="list-unstyled">
+                    
+                    <li><a href="user_profile.html"><i class="flaticon-user-11"></i> My Profile</a></li>
+                    <li><a href="user_login_1.html"><i class="flaticon-power-off"></i> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+    <!--  BEGIN PROFILE SIDEBAR  -->
+
+    <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
+    <script src="assets/js/libs/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/loader.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="plugins/blockui/jquery.blockUI.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+        $(document).ready(function() {
+            App.init();
+        });
+    </script>
+    <script src="assets/js/custom.js"></script>
+    <!-- END GLOBAL MANDATORY SCRIPTS -->
+
+    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+    <script src="plugins/charts/chartist/chartist.js"></script>
+    <script src="plugins/maps/vector/jvector/jquery-jvectormap-2.0.3.min.js"></script>
+    <script src="plugins/maps/vector/jvector/worldmap_script/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="plugins/calendar/pignose/moment.latest.min.js"></script>
+    <script src="plugins/calendar/pignose/pignose.calendar.js"></script>
+    <script src="plugins/progressbar/progressbar.min.js"></script>
+    <script src="assets/js/default-dashboard/default-custom.js"></script>
+    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+</body>
+
+<!-- Mirrored from designreset.com/preview-equation/demo3/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jun 2023 22:41:52 GMT -->
+</html>
